@@ -113,12 +113,13 @@ To ensure consistency when creating a new role the following needs to be done:
   * `Description` Should link to Galaxy
   * `devel` should be the main branch
   * Branch Protections ``https://github.com/ansible-network/{REPO}/settings/branches`` - Required for Zuul and general good practice (no force pushes or accidental deletion of branches)
-    <br/>(If you get a 404 on `{REPO}/settings/branches`, request GitHub Admin permissions for that repo)
 
     * Add New Rule
 
       * Applies to: ``*``
       * Include administrators: Checked
+
+    (If you get a 404 on ``{REPO}/settings/branches``, request GitHub Admin permissions for that repo)
       
   * Allow `Allow merge commits` on ``https://github.com/ansible-network/{REPO}/settings/`` - Needed for Zuul Gate.
   * Create new label ``https://github.com/ansible-network/{REPO}/labels``
