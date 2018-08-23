@@ -143,7 +143,7 @@ Adding & Enabling Zuul
 
   * Clone SF config repo: ``git clone https://softwarefactory-project.io/r/config``
   * Git work flow: `Software Factory Git Process <https://review.rdoproject.org/docs/user/short_git.html>`_
-  * `Install git-review & setup SSH Key <https://softwarefactory-project.io/docs/user/contribute.html#create-a-new-code-reviiew>`_
+  * `Install git-review & setup SSH Key <https://softwarefactory-project.io/docs/user/contribute.html#create-a-new-code-review>`_
   * Once PR is raised ask in `#softwarefactory` for review & merge
 
 * PR2: ``.zuul.d`` add `ansible-test-sanity` + fix any failing tests - Backport to stable branch(es)
