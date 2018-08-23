@@ -141,7 +141,7 @@ Adding & Enabling Zuul
 * Ensure GitHub setup has been completed as detailed in "New role" above, without this Zuul will not process PRs
 * PR1: Add repo to  `resources/tenant-ansible.yaml <https://softwarefactory-project.io/r/#/c/13403/>`_
 
-  * Clone SF config repo: `git clone https://softwarefactory-project.io/r/config`
+  * Clone SF config repo: ``git clone https://softwarefactory-project.io/r/config``
   * Git work flow: `Software Factory Git Process <https://review.rdoproject.org/docs/user/short_git.html>`_
   * `Install git-review & setup SSH Key <https://softwarefactory-project.io/docs/user/contribute.html#create-a-new-code-reviiew>`_
   * Once PR is raised ask in `#softwarefactory` for review & merge
